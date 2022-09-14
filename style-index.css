@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #f0f0f0;
+  color: black;
+  font-weight: bold;
+}
+
+.left-nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.left-nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.left-nav ul li {
+  margin-right: 30px;
+}
+
+.left-nav ul li img {
+  max-height: 72px;
+}
+
+.left-nav ul li a {
+  color: black;
+}
+.left-nav ul li a:hover {
+  color: gray;
+}
+
+.right-nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.right-nav a {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.right-nav a:hover {
+  background-color: #818181;
+  color: white;
+}
+
+main {
+  display: flex;
+  margin: 30px auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 30px auto;
+  padding: 60px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
+
+.container .left-content {
+  width: 70%;
+  margin-right: 100px;
+}
+
+.container .left-content .desc {
+  width: 100%;
+}
+
+.container .left-content .desc h3 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.container .left-content .desc p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container .left-content .desc {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.container .left-content .info {
+  margin: 50px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container .left-content .info span {
+  margin-right: 15px;
+}
+
+.container .left-content .info span a {
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.container .left-content .info span a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.container .left-content .social-media i {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.container .right-content {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.container .right-content .card {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.container .right-content .card img {
+  max-width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container .right-content .card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+}
+
+.container .right-content .card h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container-two {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+}
+
+.container-two .contact {
+  margin: auto;
+}
+
+.container-two form {
+  margin: auto;
+  font: 16px;
+  font-weight: 600;
+}
+
+.container-two form h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.container-two .contact form div input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+  border: none;
+  resize: none;
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+}
+
+.container-two .contact form button {
+  margin-top: 10px;
+  padding: 5px 15px 8px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.container-two .contact form button:hover {
+  background-color: gray;
+  color: white;
+}
